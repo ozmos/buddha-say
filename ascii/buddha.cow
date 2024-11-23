@@ -1,0 +1,11 @@
+# Buddha - adapated from https://www.asciiart.eu/religion/buddhism
+$the_cow = <<EOC;
+   $thoughts
+    $thoughts
+     _=_     
+   q(-_-)p   
+   '_) (_`      
+   /__/  \\   
+ _(<_   / )_ 
+(__\\_\\_|_/__) 
+EOC
