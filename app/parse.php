@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-$markdown = file_get_contents(__DIR__ . '/thai-forest/ajahn-dune/gifts.md');
+$markdown = file_get_contents(QUOTES_SRC_DIR . $argv[1]);
 
 $parts = array_values(array_filter(explode('---', $markdown), function ($part) {
     // remove empty parts
